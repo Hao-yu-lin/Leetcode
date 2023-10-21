@@ -2,6 +2,7 @@
 因為 Leetcode 退步太多，重刷 Top Interview 150
 
 ## [Array](./Array/)
+- [0026. Remove Duplicates from Sorted Array](./Array/0026-Remove_Duplicates_from_Sorted_Array.cpp)(E)
 - [0027. Remove Element](./Array/0027-Remove_Element.cpp)(E)
 - [0088. Merge Sorted Array](./Array/0088-Merge_Sorted_Array.cpp)(E)
 
