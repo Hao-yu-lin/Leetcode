@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Leetcode
 =======
 # Leetcode
@@ -8,4 +7,4 @@
 - [0088.Merge Sorted Array](./Array_String/0088-Merge_Sorted_Array.cpp)(M)
 
 ## [String](./String/)
->>>>>>> master
+
