@@ -1,8 +1,12 @@
 /*
-題目 : https://leetcode.com/problems/merge-sorted-array/
+題目：
+https://leetcode.com/problems/merge-sorted-array/
+
+解說：
 使用兩個指標比較 nums1 與 nums2 的值誰比較大，從 nums1 的 m+n-1 位置，開始降序填充
 
-有使用到的觀念：Array、TwoPointer、Sorting
+有使用到的觀念：
+Array、TwoPointer、Sorting
 */
 #include <vector>
 
