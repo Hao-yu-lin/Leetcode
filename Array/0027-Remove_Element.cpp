@@ -8,7 +8,7 @@ https://leetcode.com/problems/remove-element/
 與 count 進行交換，即代表 count 之前都是不等於 val 的數值。
 
 有使用到的觀念：
-Array、TwoPointer
+Array, TwoPointer
 */
 #include <vector>
 

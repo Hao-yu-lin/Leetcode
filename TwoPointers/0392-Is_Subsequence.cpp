@@ -8,7 +8,7 @@ https://leetcode.com/problems/is-subsequence/
 如果 curr 到達 s 的尾巴 return true 否則 return false
 
 有使用到的觀念：
-Two Pointers、String
+Two Pointers, String
 */
 #include <string>
 

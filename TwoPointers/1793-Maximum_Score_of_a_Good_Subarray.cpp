@@ -9,7 +9,7 @@ https://leetcode.com/problems/maximum-score-of-a-good-subarray/
 若想要繼續往外擴展，選定左右值中較大的，作為新的 minVal，開始重新往左往右擴展區間，計算新的區間答案，直到左右指針越界。
 
 有使用到的觀念：
-Array、Two Pointers
+Array, Two Pointers
 */
 #include <vector>
 class Solution {

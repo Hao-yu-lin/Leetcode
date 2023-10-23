@@ -9,7 +9,16 @@
 ## [Deque](./Deque/)
 - [1425. Constrained Subsequence Sum](./Deque/1425-Constrained_Subsequence_Sum.cpp) **(H)**
 
-## [String](./String/)
+## [Math](./Math/)
+#### Power of Num
+- [0231. Power of Two](./Math/0231-Power_of_Two.cpp) **(E)**
+- [0326. Power of Three](./Math/0326-Power_of_Three.cpp) **(E)**
+- [0342. Power of Four](./Math/0342-Power_of_Four.cpp) **(E)**
+
+## [Sliding Windows](./SlidingWindows/)
+- [0003. Longest Substring Without Repeating Characters](./SlidingWindows/0003-Longest_Substring_Without_Repeating_Characters.cpp) **(M)**
+- [0030. Substring with Concatenation of All Words](./SlidingWindows/0030-Substring_with_Concatenation_of_All_Words.cpp) **(H)**
+- [0209. Minimum Size Subarray Sum](./SlidingWindows/0209-Minimum_Size_Subarray_Sum.cpp) **(M)**
 
 ## [Two Pointers](./TwoPointers/)
 - [0011. Container With Most Water](./TwoPointers/0011-Container_With_Most_Water.cpp) **(M)**

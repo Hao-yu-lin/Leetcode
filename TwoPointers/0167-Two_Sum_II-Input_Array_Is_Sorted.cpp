@@ -9,7 +9,7 @@ https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 若是 sum < target ， 即代表將 l 往右移使得 sum 變大
 
 有使用到的觀念：
-Two Pointers、Binary Search
+Two Pointers, Binary Search
 */
 #include <vector>
 

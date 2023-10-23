@@ -8,7 +8,7 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 若不相等檢查 i 與計數器的值是否一樣，若不一樣則交換
 
 有使用到的觀念：
-Array、Two Pointers
+Array, Two Pointers
 */
 #include <vector>
 

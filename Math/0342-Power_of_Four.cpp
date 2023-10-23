@@ -9,7 +9,7 @@ n & (n-1) == 0 用於確認是否為 2 的倍數
 因為是四的倍數，因此只會在偶數位置上會是 1 奇數位置上為 0
 
 有使用到的觀念：
-Bit Manipulation
+Math, Bit Manipulation
 */
 class Solution {
 public:
