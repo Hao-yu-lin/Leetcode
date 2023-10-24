@@ -12,13 +12,12 @@ https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 有使用到的觀念：
 Sliding Windows, Hash Table, String
 */
-#include <string>
-#include <vector>
-#include <unordered_map>
+
+#include "../code_function.h"
 
 class Solution {
 public:
-    std::vector<int> findSubstring(std::string s, std::vector<std::string>& words) 
+    vector<int> findSubstring(string s, vector<string>& words) 
     {
         int s_len = s.length();
         int words_count = words.size();
@@ -26,21 +25,21 @@ public:
 
         if(s_len < words_count * words_len || s_len == 0 || words_len == 0 || words_count == 0) return {};
 
-        std::unordered_map<std::string, int> map1;
+        unordered_map<string, int> map1;
         for(const auto c : words)
         {
             map1[c]++;
         }
 
-        std::vector<int> ans;
+        vector<int> ans;
         int end = s_len - words_len * words_count + 1;
         for(int i = 0; i < end; ++i)
         {
-            std::unordered_map<std::string, int> map2;
+            unordered_map<string, int> map2;
             for(int j = 0; j < words_count; j++)
             {
                 int wordpos = i + j * words_len;
-                std::string word = s.substr(wordpos, words_len);
+                string word = s.substr(wordpos, words_len);
                 map2[word]++;
 
                 if(map2[word] > map1[word]) break;

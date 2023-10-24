@@ -8,11 +8,11 @@ https://leetcode.com/problems/merge-sorted-array/
 有使用到的觀念：
 Array, TwoPointer、Sorting
 */
-#include <vector>
+#include "../code_function.h"
 
 class Solution {
 public:
-    void merge(std::vector<int>& nums1, int m, std::vector<int>& nums2, int n) 
+    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) 
     {
         int ptr1 = m-1, ptr2 = n-1, curr = m+n-1;
 

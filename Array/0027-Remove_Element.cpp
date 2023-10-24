@@ -10,11 +10,11 @@ https://leetcode.com/problems/remove-element/
 有使用到的觀念：
 Array, TwoPointer
 */
-#include <vector>
+#include "../code_function.h"
 
 class Solution {
 public:
-    int removeElement(std::vector<int>& nums, int val) 
+    int removeElement(vector<int>& nums, int val) 
     {
         int count = 0;
         const int n = nums.size();

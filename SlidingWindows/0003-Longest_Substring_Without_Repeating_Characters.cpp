@@ -10,16 +10,16 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 有使用到的觀念：
 Sliding Windows, Set, String
 */
-#include <string>
-#include <set>
+
+#include "../code_function.h"
 
 class Solution {
 public:
-    int lengthOfLongestSubstrings(std::string s) 
+    int lengthOfLongestSubstrings(string s) 
     {
         int maxLen = 0;
 
-        std::set<char> st;
+        set<char> st;
         int left = 0, right = 0;
         while(left <= right && right < s.length())
         {

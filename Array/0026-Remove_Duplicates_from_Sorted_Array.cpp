@@ -10,11 +10,11 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 有使用到的觀念：
 Array, Two Pointers
 */
-#include <vector>
+#include "../code_function.h"
 
 class Solution {
 public:
-    int removeDuplicates(std::vector<int>& nums) 
+    int removeDuplicates(vector<int>& nums) 
     {
         if(nums.size() == 1) return 1;
         int count = 1;
