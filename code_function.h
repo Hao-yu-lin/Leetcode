@@ -1,16 +1,16 @@
 #ifndef CODE_FUNCTION_H_
 #define CODE_FUNCTION_H_
 
-#include <vector>
-#include <queue>
-#include <unordered_map>
-#include <limits.h>
-#include <deque>
-#include <string>
-#include <set>
 #include <algorithm>
+#include <deque>
+#include <limits.h>
+#include <queue>
+#include <stack>
+#include <set>
+#include <string>
+#include <unordered_map>
 #include <unordered_set>
-
+#include <vector>
 
 using namespace std;
 
@@ -31,22 +31,6 @@ struct ListNode{
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
-class Node {
-public:
-    int val;
-    vector<Node*> neighbors;
-    Node() {
-        val = 0;
-        neighbors = vector<Node*>();
-    }
-    Node(int _val) {
-        val = _val;
-        neighbors = vector<Node*>();
-    }
-    Node(int _val, vector<Node*> _neighbors) {
-        val = _val;
-        neighbors = _neighbors;
-    }
-};
+
 
 #endif

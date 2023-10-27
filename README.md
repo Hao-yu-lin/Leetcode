@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 62 題
+- 目前有 82 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -17,7 +17,12 @@
 - [0122. Best Time to Buy and Sell Stock II](./Array/0122-Best_Time_to_Buy_and_Sell_Stock_II.cpp) **(M)**
 - [0169. Majority Element](./Array/0169-Majority_Element.cpp) **(E)**
 - [0189. Rotate Array](./Array/0189-Rotate_Array.cpp) **(M)**
+- [0238. Product of Array Except Self](./Array/0238-Product_of_Array_Except_Self.cpp) **(M)**
 - [0274. H-Index](./Array/0274-H-Index.cpp) **(M)**
+- [0380. Insert Delete GetRandom O(1)](./Array/0380-Insert_Delete_GetRandom%20O(1).cpp) **(M)**
+- [2903. Find Indices With Index and Value Difference I](./Array/2903-Find_Indices_With_Index_and_Value_Difference_I.cpp) **(E)**
+- [2905. Find Indices With Index and Value Difference II](./Array/2905-Find_Indices_With_Index_and_Value_Difference_II.cpp)
+- [2906. Construct Product Matrix](./Array/2906-Construct_Product_Matrix.cpp) **(M)**
 - [2908. Minimum Sum of Mountain Triplets I](./Array/2908-Minimum_Sum_of_Mountain_Triplets_I.cpp) **(E)**
 - [2909. Minimum Sum of Mountain Triplets II](./Array/2909-Minimum_Sum_of_Mountain_Triplets_II.cpp) **(M)**
 - [2910. Minimum Number of Groups to Create a Valid Assignment](./Array/2910-Minimum_Number_of_Groups_to_Create_a_Valid_Assignment.cpp) **(M)**
@@ -33,6 +38,12 @@
 ## [BST](./BST/)
 - [0230. Kth Smallest Element in a BST](./BST/0230-Kth_Smallest_Element_in_a_BST.cpp) **(M)**
 - [0530. Minimum Absolute Difference in BST](./BST/0530-Minimum_Absolute_Difference_in_BST.cpp) **(E)**
+
+## [BT](./BT/)
+- [0100. Same Tree](./BT/0100-Same_Tree.cpp) **(E)**
+- [0101. Symmetric Tree](./BT/0101-Symmetric_Tree.cpp) **(E)**
+- [0104. Maximum Depth of Binary Tree](./BT/0104-Maximum_Depth_of_Binary_Tree.cpp) **(E)**
+- [0226. Invert Binary Tree](./BT/0226-Invert_Binary_Tree.cpp) **(E)**
 
 ## [Deque](./Deque/)
 - [1425. Constrained Subsequence Sum](./Deque/1425-Constrained_Subsequence_Sum.cpp) **(H)**
@@ -59,6 +70,9 @@
 - [0210. Course Schedule II](./Graph/0210-Course_Schedule_II.cpp) **(M)**
 - [0399. Evaluate Division](./Graph/0399-Evaluate_Division.cpp) **(M)**
 
+## [Greedy](./Greedy/)
+- [0134. Gas Station](./Greedy/0134-Gas%20Station.cpp) **(M)**
+
 ## [Hash Map](./HashMap/)
 - [0001. Two Sum](./HashMap/0001-Two_Sum.cpp) **(E)**
 - [0049. Group Anagrams](./HashMap/0049-Group_Anagrams.cpp) **(M)**
@@ -70,8 +84,16 @@
 
 ## [Linked List](./LinkedList/)
 - [0002. Add Two Numbers](./LinkedList/0002-Add_Two_Numbers.cpp) **(M)**
+- [0019. Remove Nth Node From End of List](./LinkedList/0019-Remove_Nth_Node_From_End_of_List.cpp) **(M)**
 - [0021. Merge Two Sorted Lists](./LinkedList/0021-Merge_Two_Sorted_Lists.cpp) **(E)**
+- [0025. Reverse Nodes in k-Group](./LinkedList/0025-Reverse_Nodes_in_k-Group.cpp) **(H)**
+- [0061. Rotate List](./LinkedList/0061-Rotate_List.cpp) **(M)**
+- [0082. Remove Duplicates from Sorted List II](./LinkedList/0082-Remove_Duplicates_from_Sorted_List_II.cpp) **(M)**
+- [0086. Partition List](./LinkedList/0086-Partition_List.cpp) **(M)**
+- [0092. Reverse Linked List II](./LinkedList/0092-Reverse_Linked_List_II.cpp) **(M)**
+- [0138. Copy List with Random Pointer](./LinkedList/0138-Copy_List_with_Random_Pointer.cpp) **(M)**
 - [0141. Linked List Cycle](./LinkedList/0141-Linked_List_Cycle.cpp) **(E)**
+- [0146. LRU Cache](./LinkedList/0146-LRU_Cache.cpp) **(M)**
 
 ## [Math](./Math/)
 #### Power of Num
@@ -87,6 +109,10 @@
 - [0030. Substring with Concatenation of All Words](./SlidingWindows/0030-Substring_with_Concatenation_of_All_Words.cpp) **(H)**
 - [0076. Minimum Window Substring](./SlidingWindows/0076-Minimum_Window_Substring.cpp) **(H)**
 - [0209. Minimum Size Subarray Sum](./SlidingWindows/0209-Minimum_Size_Subarray_Sum.cpp) **(M)**
+- [2904. Shortest and Lexicographically Smallest Beautiful String](./SlidingWindows/2904-Shortest_and_Lexicographically_Smallest_Beautiful_String.cpp) **(M)**
+
+## [Stack](./Stack/)
+- [0020. Valid Parentheses](./Stack/0020-Valid_Parentheses.cpp) **(E)**
 
 ## [Two Pointers](./TwoPointers/)
 - [0011. Container With Most Water](./TwoPointers/0011-Container_With_Most_Water.cpp) **(M)**
