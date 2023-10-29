@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <deque>
 #include <limits.h>
+#include <memory>
 #include <queue>
 #include <stack>
 #include <set>

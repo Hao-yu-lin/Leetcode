@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 82 題
+- 目前有 110 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -9,8 +9,10 @@
 - [0015. 3Sum](./Array/0015-3Sum.cpp) **(M)**
 - [0026. Remove Duplicates from Sorted Array](./Array/0026-Remove_Duplicates_from_Sorted_Array.cpp) **(E)**
 - [0027. Remove Element](./Array/0027-Remove_Element.cpp) **(E)**
+- [0028. Find the Index of the First Occurrence in a String](./Array/0028-Find_the_Index_of_the_First_Occurrence_in_a_String.cpp) **(E)**
 - [0045. Jump Game II](./Array/0045-Jump_Game_II.cpp) **(M)**
 - [0055. Jump Game](./Array/0055-Jump_Game.cpp) **(M)**
+- [0058. Length of Last Word](./Array/0058-Length_of_Last_Word.cpp) **(E)**
 - [0088. Merge Sorted Array](./Array/0088-Merge_Sorted_Array.cpp) **(E)**
 - [0080. Remove Duplicates from Sorted Array II](./Array/0080-Remove_Duplicates_from_Sorted_Array_II.cpp) **(M)**
 - [0121. Best Time to Buy and Sell Stock](./Array/0121-Best_Time_to_Buy_and_Sell_Stock.cpp) **(E)**
@@ -26,6 +28,7 @@
 - [2908. Minimum Sum of Mountain Triplets I](./Array/2908-Minimum_Sum_of_Mountain_Triplets_I.cpp) **(E)**
 - [2909. Minimum Sum of Mountain Triplets II](./Array/2909-Minimum_Sum_of_Mountain_Triplets_II.cpp) **(M)**
 - [2910. Minimum Number of Groups to Create a Valid Assignment](./Array/2910-Minimum_Number_of_Groups_to_Create_a_Valid_Assignment.cpp) **(M)**
+- [2914. Minimum Number of Changes to Make Binary String Beautiful](./Array/2914-Minimum_Number_of_Changes_to_Make_Binary_String_Beautiful.cpp) **(M)**
 
 ## [BFS](./BFS/)
 - [0102. Binary Tree Level Order Traversal](./BFS/0102-Binary_Tree_Level_Order_Traversal.cpp) **(M)**
@@ -50,18 +53,24 @@
 
 ## [DP](./DP/)
 #### 1D DP
+- [0042. Trapping Rain Water](./DP/0042-Trapping_Rain_Water.cpp) **(H)**
 - [0070. Climbing Stairs](./DP/0070-Climbing_Stairs.cpp) **(E)**
 - [0139. Word Break](./DP/0139-Word_Break.cpp) **(M)**
 - [0198. House Robber](./DP/0198-House_Robber.cpp) **(M)**
-- [0322. Coin Change](./DP/0322-Coin_Change.cpp) **(M)**
+- [0300. Longest Increasing Subsequence](./DP/0300-Longest_Increasing_Subsequence.cpp) **(M)**
 - [0823. Binary Trees With Factors](./DP/0823-Binary_Trees_With_Factors.cpp) **(M)**
+- [1220. Count Vowels Permutation](./DP/1220-Count_Vowels_Permutation.cpp) **(H)**
+- [2919. Minimum Increment Operations to Make Array Beautiful](./DP/2919-Minimum_Increment_Operations_to_Make_Array_Beautiful.cpp) **(M)**
 
 #### Multidimensional DP
 - [0005. Longest Palindromic Substring](./DP/0005-Longest_Palindromic_Substring.cpp) **(M)**
 - [0063. Unique Paths II](./DP/0063-Unique_Paths_II.cpp) **(M)**
 - [0064. Minimum Path Sum](./DP/0064-Minimum_Path_Sum.cpp) **(M)**
+- [0072. Edit Distance](./DP/0072-Edit_Distance.cpp) **(M)**
 - [0097. Interleaving String](./DP/0097-Interleaving_String.cpp) **(M)**
 - [0120. Triangle](./DP/0120-Triangle.cpp) **(M)**
+- [0123. Best Time to Buy and Sell Stock III](./DP/0123-Best_Time_to_Buy_and_Sell_Stock_III.cpp) **(H)**
+- [0221. Maximal Square](./DP/0221-Maximal_Square.cpp) **(M)**
 
 ## [Graph](./Graph/)
 - [0133. Clone Graph](./Graph/0133-Clone_Graph.cpp) **(M)**
@@ -72,9 +81,13 @@
 
 ## [Greedy](./Greedy/)
 - [0134. Gas Station](./Greedy/0134-Gas%20Station.cpp) **(M)**
+- [0135. Candy](./Greedy/0135-Candy.cppp) **(H)**
+- [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](./Greedy/2918-Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp) **(M)**
 
 ## [Hash Map](./HashMap/)
 - [0001. Two Sum](./HashMap/0001-Two_Sum.cpp) **(E)**
+- [0012. Integer to Roman](./HashMap/0012-Integer_to_Roman.cpp) **(M)**
+- [0013. Roman to Integer](./HashMap/0013-Roman_to_Integer.cpp) **(E)**
 - [0049. Group Anagrams](./HashMap/0049-Group_Anagrams.cpp) **(M)**
 - [0202. Happy Number](./HashMap/0202-Happy_Number.cpp) **(E)**
 - [0205. Isomorphic Strings](./HashMap/0205-Isomorphic_Strings.cpp) **(E)**
@@ -96,10 +109,19 @@
 - [0146. LRU Cache](./LinkedList/0146-LRU_Cache.cpp) **(M)**
 
 ## [Math](./Math/)
+- [0050. Pow(x, n)](./Math/0050-Pow(x,%20n).cpp) **(M)**
+- [0066. Plus One](./Math/0066-Plus_One.cpp) **(E)**
+- [0069. Sqrt(x)](./Math/0069-Sqrt(x).cpp) **(E)**
+- [0172. Factorial Trailing Zeroes](./Math/0172-Factorial_Trailing_Zeroes.cpp) **(M)**
+- [2917. Find the K-or of an Array](./Math/2917-Find_the_K-or_of_an_Array.cpp) **(E)**
+
 #### Power of Num
 - [0231. Power of Two](./Math/0231-Power_of_Two.cpp) **(E)**
 - [0326. Power of Three](./Math/0326-Power_of_Three.cpp) **(E)**
 - [0342. Power of Four](./Math/0342-Power_of_Four.cpp) **(E)**
+
+#### Palindrome
+- [0009. Palindrome Number](./Math/0009-Palindrome_Number.cpp) **(E)**
 
 ## [Recursion](./Recursion/)
 - [0779. K-th Symbol in Grammar](./Recursion/0779-K-th_Symbol_in_Grammar.cpp) **(M)**
@@ -113,6 +135,23 @@
 
 ## [Stack](./Stack/)
 - [0020. Valid Parentheses](./Stack/0020-Valid_Parentheses.cpp) **(E)**
+- [0151. Reverse Words in a String](./Stack/0151-Reverse_Words_in_a_String.cpp) **(M)**
+
+## [Knapsack](./Knapsack/)
+#### 01 knapsack
+- [0322. Coin Change](./Knapsack/0322-Coin_Change.cpp) **(M)**
+- [416. Partition Equal Subset Sum](./Knapsack/0416-Partition_Equal_Subset%20Sum.cpp) **(M)**
+- [0518. Coin Change II](./Knapsack/0518-Coin_Change_II.cpp) **(M)**
+- [2218. Maximum Value of K Coins From Piles](./Knapsack/2218-Maximum_Value_of_K_Coins_From_Piles.cpp) **(H)**
+- [2915. Length of the Longest Subsequence That Sums to Target](./Knapsack/2915-Length_of_the_Longest_Subsequence_That_Sums_to_Target.cpp) **(M)**
+
+#### Unbounded Knapsack
+- [1449. Form Largest Integer With Digits That Add up to Target](./Knapsack/1449-Form_Largest_Integer_With_Digits_That_Add_up_to_Target.cpp) **(H)**
+
+
+## [Trie](./Trie/)
+- [0014. Longest Common Prefix](./Trie/0014-Longest_Common_Prefix.cpp) **(E)**
+- [0208. Implement Trie (Prefix Tree)](./Trie/0208-Implement_Trie_(Prefix%20Tree).cpp) **(M)**
 
 ## [Two Pointers](./TwoPointers/)
 - [0011. Container With Most Water](./TwoPointers/0011-Container_With_Most_Water.cpp) **(M)**
