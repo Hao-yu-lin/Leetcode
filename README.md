@@ -13,7 +13,6 @@
 - [0045. Jump Game II](./Array/0045-Jump_Game_II.cpp) **(M)**
 - [0055. Jump Game](./Array/0055-Jump_Game.cpp) **(M)**
 - [0058. Length of Last Word](./Array/0058-Length_of_Last_Word.cpp) **(E)**
-- [0088. Merge Sorted Array](./Array/0088-Merge_Sorted_Array.cpp) **(E)**
 - [0080. Remove Duplicates from Sorted Array II](./Array/0080-Remove_Duplicates_from_Sorted_Array_II.cpp) **(M)**
 - [0121. Best Time to Buy and Sell Stock](./Array/0121-Best_Time_to_Buy_and_Sell_Stock.cpp) **(E)**
 - [0122. Best Time to Buy and Sell Stock II](./Array/0122-Best_Time_to_Buy_and_Sell_Stock_II.cpp) **(M)**
@@ -30,9 +29,18 @@
 - [2910. Minimum Number of Groups to Create a Valid Assignment](./Array/2910-Minimum_Number_of_Groups_to_Create_a_Valid_Assignment.cpp) **(M)**
 - [2914. Minimum Number of Changes to Make Binary String Beautiful](./Array/2914-Minimum_Number_of_Changes_to_Make_Binary_String_Beautiful.cpp) **(M)**
 
+#### Intervals
+- [0056. Merge Intervals](./Array/0056-Merge_Intervals.cpp) **(M)**
+- [0057. Insert Interval](./Array/0057-Insert_Interval.cpp) **(M)**
+- [0088. Merge Sorted Array](./Array/0088-Merge_Sorted_Array.cpp) **(E)**
+- [0228. Summary Ranges](./Array/0228-Summary_Ranges.cpp) **(E)**
+- [0435. Non-overlapping Intervals](./Array/0435-Non-overlapping_Intervals.cpp) **(M)**
+- [0452. Minimum Number of Arrows to Burst Balloons](./Array/0452-Minimum_Number_of_Arrows_to_Burst_Balloons.cpp) **(M)**
+
 ## [BFS](./BFS/)
 - [0102. Binary Tree Level Order Traversal](./BFS/0102-Binary_Tree_Level_Order_Traversal.cpp) **(M)**
 - [0103. Binary Tree Zigzag Level Order Traversal](./BFS/0103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp) **(M)**
+- [0127. Word Ladder](./BFS/0127-Word_Ladder.cpp) **(H)**
 - [0199. Binary Tree Right Side View](./BFS/0199-Binary_Tree_Right_Side_View.cpp) **(M)**
 - [0433. Minimum Genetic Mutation](./BFS/0433-Minimum_Genetic_Mutation.cpp) **(M)**
 - [0515. Find Largest Value in Each Tree Row](./BFS/0515-Find_Largest_Value_in_Each_Tree_Row.cpp) **(M)**
@@ -40,13 +48,30 @@
 
 ## [BST](./BST/)
 - [0230. Kth Smallest Element in a BST](./BST/0230-Kth_Smallest_Element_in_a_BST.cpp) **(M)**
+- [0501. Find Mode in Binary Search Tree](./BST/0501-Find_Mode_in_Binary_Search_Tree.cpp) **(E)**
 - [0530. Minimum Absolute Difference in BST](./BST/0530-Minimum_Absolute_Difference_in_BST.cpp) **(E)**
 
 ## [BT](./BT/)
 - [0100. Same Tree](./BT/0100-Same_Tree.cpp) **(E)**
 - [0101. Symmetric Tree](./BT/0101-Symmetric_Tree.cpp) **(E)**
 - [0104. Maximum Depth of Binary Tree](./BT/0104-Maximum_Depth_of_Binary_Tree.cpp) **(E)**
+- [0105. Construct Binary Tree from Preorder and Inorder Traversal](./BT/0105-Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp) **(M)**
+- [0106. Construct Binary Tree from Inorder and Postorder Traversal](./BT/0106-Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp) **(M)**
+- [0112. Path Sum](./BT/0112-Path_Sum.cpp) **(M)**
+- [0114. Flatten Binary Tree to Linked List](./BT/0114-Flatten_Binary_Tree_to_Linked_List.cpp) **(M)**
+- [0116. Populating Next Right Pointers in Each Node](./BT/0116-Populating_Next_Right_Pointers_in_Each_Node.cpp) **(M)**
+- [0117. Populating Next Right Pointers in Each Node II](./BT/0117-Populating_Next_Right_Pointers_in_Each_Node_II.cpp) **(M)**
+- [0124. Binary Tree Maximum Path Sum](./BT/0124-Binary_Tree_Maximum_Path_Sum.cpp) **(H)**
+- [0129. Sum Root to Leaf Numbers](./BT/0129-Sum_Root_to_Leaf_Numbers.cpp) **(M)**
+- [0222. Count Complete Tree Nodes](./BT/0222-Count_Complete_Tree_Nodes.cpp) **(M)**
 - [0226. Invert Binary Tree](./BT/0226-Invert_Binary_Tree.cpp) **(E)**
+- [0235. Lowest Common Ancestor of a Binary Search Tree](./BT/0235-Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp) **(M)**
+- [0236. Lowest Common Ancestor of a Binary Tree](./BT/0236-Lowest_Common_Ancestor_of_a_Binary_Tree.cpp) **(M)**
+
+## [Divide and Conquer](./DandC/)
+- [0023. Merge k Sorted Lists](./DandC/0023-Merge_k_Sorted_Lists.cpp) **(H)**
+- [0108. Convert Sorted Array to Binary Search Tree](./DandC/0108-Convert_Sorted_Array_to_Binary_Search_Tree.cpp) **(E)**
+- [0148. Sort List](./DandC/0148-Sort_%20List.cpp)
 
 ## [Deque](./Deque/)
 - [1425. Constrained Subsequence Sum](./Deque/1425-Constrained_Subsequence_Sum.cpp) **(H)**
@@ -89,8 +114,10 @@
 - [0012. Integer to Roman](./HashMap/0012-Integer_to_Roman.cpp) **(M)**
 - [0013. Roman to Integer](./HashMap/0013-Roman_to_Integer.cpp) **(E)**
 - [0049. Group Anagrams](./HashMap/0049-Group_Anagrams.cpp) **(M)**
+- [0128. Longest Consecutive Sequence](./HashMap/0128-Longest_Consecutive_Sequence.cpp) **(M)**
 - [0202. Happy Number](./HashMap/0202-Happy_Number.cpp) **(E)**
 - [0205. Isomorphic Strings](./HashMap/0205-Isomorphic_Strings.cpp) **(E)**
+- [0219. Contains Duplicate II](./HashMap/0219-Contains_Duplicate_II.cpp) **(E)**
 - [0242. Valid Anagram](./HashMap/0242-Valid_Anagram.cpp) **(E)**
 - [0290. Word Pattern](./HashMap/0290-Word_Pattern.cpp) **(E)**
 - [0383. Ransom Note](./HashMap/0383-Ransom_Note.cpp) **(E)**
@@ -112,8 +139,10 @@
 - [0050. Pow(x, n)](./Math/0050-Pow(x,%20n).cpp) **(M)**
 - [0066. Plus One](./Math/0066-Plus_One.cpp) **(E)**
 - [0069. Sqrt(x)](./Math/0069-Sqrt(x).cpp) **(E)**
+- [0149. Max Points on a Line](./Math/0149-Max_Points_on_a_Line.cpp) **(H)**
 - [0172. Factorial Trailing Zeroes](./Math/0172-Factorial_Trailing_Zeroes.cpp) **(M)**
 - [2917. Find the K-or of an Array](./Math/2917-Find_the_K-or_of_an_Array.cpp) **(E)**
+- [2433. Find The Original Array of Prefix Xor](./Math/2917-Find_the_K-or_of_an_Array.cpp) **(M)**
 
 #### Power of Num
 - [0231. Power of Two](./Math/0231-Power_of_Two.cpp) **(E)**
@@ -123,6 +152,21 @@
 #### Palindrome
 - [0009. Palindrome Number](./Math/0009-Palindrome_Number.cpp) **(E)**
 
+#### Bit Manipulation
+- [1356. Sort Integers by The Number of 1 Bits](./Math/1356-Sort_Integers_by_The_Number_of_1_Bits.cpp) **(E)**
+
+## [Matrix](./Matrix/)
+- [0036. Valid Sudoku](./Matrix/0036-Valid_Sudoku.cpp) **(M)**
+- [0048. Rotate Image](./Matrix/0048-Rotate_Image.cpp) **(M)**
+- [0054. Spiral Matrix](./Matrix/0054-Spiral_Matrix.cpp) **(M)**
+- [0073. Set Matrix Zeroes](./Matrix/0073-Set_Matrix_Zeroes.cpp) **(M)**
+
+## [PrefixSumAndDifference](./PrefixSumAndDifference/)
+#### Prefix
+- [0848. Shifting Letters](./PrefixSumAndDifference/0848-Shifting_Letters.cpp) **(M)**
+#### Difference 差分數組
+- [2381. Shifting Letters II](./PrefixSumAndDifference/2381-Shifting_Letters_II.cpp) **(M)**
+
 ## [Recursion](./Recursion/)
 - [0779. K-th Symbol in Grammar](./Recursion/0779-K-th_Symbol_in_Grammar.cpp) **(M)**
 
@@ -131,7 +175,10 @@
 - [0030. Substring with Concatenation of All Words](./SlidingWindows/0030-Substring_with_Concatenation_of_All_Words.cpp) **(H)**
 - [0076. Minimum Window Substring](./SlidingWindows/0076-Minimum_Window_Substring.cpp) **(H)**
 - [0209. Minimum Size Subarray Sum](./SlidingWindows/0209-Minimum_Size_Subarray_Sum.cpp) **(M)**
+- [0220. Contains Duplicate III](./SlidingWindows/0220-Contains_Duplicate_III.cpp) **(H)**
+- [2379. Minimum Recolors to Get K Consecutive Black Blocks](./SlidingWindows/2379-Minimum_Recolors_to_Get_K_Consecutive_Black_Blocks.cpp) **(E)**
 - [2904. Shortest and Lexicographically Smallest Beautiful String](./SlidingWindows/2904-Shortest_and_Lexicographically_Smallest_Beautiful_String.cpp) **(M)**
+
 
 ## [Stack](./Stack/)
 - [0020. Valid Parentheses](./Stack/0020-Valid_Parentheses.cpp) **(E)**
@@ -152,6 +199,7 @@
 ## [Trie](./Trie/)
 - [0014. Longest Common Prefix](./Trie/0014-Longest_Common_Prefix.cpp) **(E)**
 - [0208. Implement Trie (Prefix Tree)](./Trie/0208-Implement_Trie_(Prefix%20Tree).cpp) **(M)**
+- [0211. Design Add and Search Words Data Structure](./Trie/0211-Design_Add_and_Search_Words_Data_Structure.cpp) **(M)**
 
 ## [Two Pointers](./TwoPointers/)
 - [0011. Container With Most Water](./TwoPointers/0011-Container_With_Most_Water.cpp) **(M)**
@@ -159,3 +207,6 @@
 - [0167. Two Sum II - Input Array Is Sorted](./TwoPointers/0167-Two_Sum_II-Input_Array_Is_Sorted.cpp) **(M)**
 - [0392. Is Subsequence](./TwoPointers/0392-Is_Subsequence.cpp) **(E)**
 - [1793. Maximum Score of a Good Subarray](./TwoPointers/1793-Maximum_Score_of_a_Good_Subarray.cpp) **(H)**
+
+## [UnionFind](./UnionFind/)
+- [0684. Redundant Connection](./UnionFind/0684-Redundant_Connection.cpp) **(M)**
