@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 110 題
+- 目前有 169 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -76,6 +76,16 @@
 ## [Deque](./Deque/)
 - [1425. Constrained Subsequence Sum](./Deque/1425-Constrained_Subsequence_Sum.cpp) **(H)**
 
+## [DFS](./DFS/)
+- [0017. Letter Combinations of a Phone Number](./DFS/0017-Letter_Combinations_of_a_Phone_Number.cpp) **(M)**
+- [0022. Generate Parentheses](./DFS/0022-Generate_Parentheses.cpp) **(M)**
+- [0039. Combination Sum](./DFS/0039-Combination_Sum.cpp) **(M)**
+- [0046. Permutations](./DFS/0046-Permutations.cpp) **(M)**
+- [0052. N-Queens II](./DFS/0052-N-Queens_II.cpp) **(H)**
+- [0077. Combinations](./DFS/0077-Combinations.cpp) **(M)**
+- [0079. Word Search](./DFS/0079-Word_Search.cpp) **(M)**
+- [2265. Count Nodes Equal to Average of Subtree](./DFS/2265-Count_Nodes_Equal_to_Average_of_Subtree.cpp) **(M)**
+
 ## [DP](./DP/)
 #### 1D DP
 - [0042. Trapping Rain Water](./DP/0042-Trapping_Rain_Water.cpp) **(H)**
@@ -98,6 +108,7 @@
 - [0221. Maximal Square](./DP/0221-Maximal_Square.cpp) **(M)**
 
 ## [Graph](./Graph/)
+- [0130. Surrounded Regions](./Graph/0130-Surrounded_Regions.cpp) **(M)**
 - [0133. Clone Graph](./Graph/0133-Clone_Graph.cpp) **(M)**
 - [0200. Number of Islands](./Graph/0200-Number_of_Islands.cpp) **(M)**
 - [0207. Course Schedule](./Graph/0207-Course_Schedule.cpp) **(M)**
@@ -153,6 +164,11 @@
 - [0009. Palindrome Number](./Math/0009-Palindrome_Number.cpp) **(E)**
 
 #### Bit Manipulation
+- [0067. Add Binary](./Math/0067-Add_Binary.cpp) **(E)**
+- [0190. Reverse Bits](./Math/0190-Reverse_Bits.cpp) **(E)**
+- [0136. Single Number](./Math/0136-Single_Number.cpp) **(E)**
+- [0191. Number of 1 Bits](./Math/0191-Number_of_1_Bits.cpp) **(E)**
+- [0201. Bitwise AND of Numbers Range](./Math/0201-Bitwise_AND_of_Numbers_Range.cpp)
 - [1356. Sort Integers by The Number of 1 Bits](./Math/1356-Sort_Integers_by_The_Number_of_1_Bits.cpp) **(E)**
 
 ## [Matrix](./Matrix/)
@@ -163,6 +179,7 @@
 
 ## [PrefixSumAndDifference](./PrefixSumAndDifference/)
 #### Prefix
+- [0053. Maximum Subarray](./PrefixSumAndDifference/0053-Maximum_Subarray.cpp) **(M)**
 - [0848. Shifting Letters](./PrefixSumAndDifference/0848-Shifting_Letters.cpp) **(M)**
 #### Difference 差分數組
 - [2381. Shifting Letters II](./PrefixSumAndDifference/2381-Shifting_Letters_II.cpp) **(M)**
@@ -182,7 +199,11 @@
 
 ## [Stack](./Stack/)
 - [0020. Valid Parentheses](./Stack/0020-Valid_Parentheses.cpp) **(E)**
+- [0071. Simplify Path](./Stack/0071-Simplify_Path.cpp) **(M)**
+- [0150. Evaluate Reverse Polish Notation](./Stack/0150-Evaluate_Reverse_Polish_Notation.cpp) **(M)**
 - [0151. Reverse Words in a String](./Stack/0151-Reverse_Words_in_a_String.cpp) **(M)**
+- [0155. Min Stack](./Stack/0155-Min_Stack.cpp) **(M)**
+- [0224. Basic Calculator](./Stack/0224-Basic_Calculator.cpp) **(H)**
 
 ## [Knapsack](./Knapsack/)
 #### 01 knapsack
@@ -200,6 +221,7 @@
 - [0014. Longest Common Prefix](./Trie/0014-Longest_Common_Prefix.cpp) **(E)**
 - [0208. Implement Trie (Prefix Tree)](./Trie/0208-Implement_Trie_(Prefix%20Tree).cpp) **(M)**
 - [0211. Design Add and Search Words Data Structure](./Trie/0211-Design_Add_and_Search_Words_Data_Structure.cpp) **(M)**
+- [0212. Word Search II](./Trie/0212-Word_Search_II.cpp) **(H)**
 
 ## [Two Pointers](./TwoPointers/)
 - [0011. Container With Most Water](./TwoPointers/0011-Container_With_Most_Water.cpp) **(M)**
