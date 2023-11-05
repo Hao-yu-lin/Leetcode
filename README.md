@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 169 題
+- 目前有 203 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -21,6 +21,7 @@
 - [0238. Product of Array Except Self](./Array/0238-Product_of_Array_Except_Self.cpp) **(M)**
 - [0274. H-Index](./Array/0274-H-Index.cpp) **(M)**
 - [0380. Insert Delete GetRandom O(1)](./Array/0380-Insert_Delete_GetRandom%20O(1).cpp) **(M)**
+- [1535. Find the Winner of an Array Game](./Array/1535-Find_the_Winner_of_an_Array_Game.cpp) **(M)**
 - [2903. Find Indices With Index and Value Difference I](./Array/2903-Find_Indices_With_Index_and_Value_Difference_I.cpp) **(E)**
 - [2905. Find Indices With Index and Value Difference II](./Array/2905-Find_Indices_With_Index_and_Value_Difference_II.cpp)
 - [2906. Construct Product Matrix](./Array/2906-Construct_Product_Matrix.cpp) **(M)**
@@ -28,6 +29,8 @@
 - [2909. Minimum Sum of Mountain Triplets II](./Array/2909-Minimum_Sum_of_Mountain_Triplets_II.cpp) **(M)**
 - [2910. Minimum Number of Groups to Create a Valid Assignment](./Array/2910-Minimum_Number_of_Groups_to_Create_a_Valid_Assignment.cpp) **(M)**
 - [2914. Minimum Number of Changes to Make Binary String Beautiful](./Array/2914-Minimum_Number_of_Changes_to_Make_Binary_String_Beautiful.cpp) **(M)**
+- [2923. Find Champion I](./Array/2923-Find_Champion_I.cpp) **(E)**
+- [2924. Find Champion II](./Array/2924-Find_Champion_II.cpp) **(M)**
 
 #### Intervals
 - [0056. Merge Intervals](./Array/0056-Merge_Intervals.cpp) **(M)**
@@ -45,11 +48,22 @@
 - [0433. Minimum Genetic Mutation](./BFS/0433-Minimum_Genetic_Mutation.cpp) **(M)**
 - [0515. Find Largest Value in Each Tree Row](./BFS/0515-Find_Largest_Value_in_Each_Tree_Row.cpp) **(M)**
 - [0637. Average of Levels in Binary Tree](./BFS/0637-Average_of_Levels_in_Binary_Tree.cpp) **(E)**
+- [1466. Reorder Routes to Make All Paths Lead to the City Zero](./BFS/1466-Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero.cpp) **(M)**
 
-## [BST](./BST/)
-- [0230. Kth Smallest Element in a BST](./BST/0230-Kth_Smallest_Element_in_a_BST.cpp) **(M)**
-- [0501. Find Mode in Binary Search Tree](./BST/0501-Find_Mode_in_Binary_Search_Tree.cpp) **(E)**
-- [0530. Minimum Absolute Difference in BST](./BST/0530-Minimum_Absolute_Difference_in_BST.cpp) **(E)**
+## [BS](./BS/)
+#### Binary Search
+- [0004. Median of Two Sorted Arrays](./BS/0004-Median_of_Two_Sorted_Arrays.cpp) **(M)**
+- [0033. Search in Rotated Sorted Array](./BS/0033-Search_in_Rotated_Sorted_Array.cpp) **(M)**
+- [0034. Find First and Last Position of Element in Sorted Array](./BS/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp) **(M)**
+- [0035. Search Insert Position](./BS/0035-Search_Insert_Position.cpp) **(E)**
+- [0074. Search a 2D Matrix](./BS/0074-Search_a_2D_Matrix.cpp) **(M)**
+- [0153. Find Minimum in Rotated Sorted Array](./BS/0153-Find_Minimum_in_Rotated_Sorted_Array.cpp) **(M)**
+- [0162. Find Peak Element](./BS/0162-Find_Peak_%20Element.cpp) **(M)**\
+
+#### Binary Search Tree
+- [0230. Kth Smallest Element in a BST](./BS/0230-Kth_Smallest_Element_in_a_BST.cpp) **(M)**
+- [0501. Find Mode in Binary Search Tree](./BS/0501-Find_Mode_in_Binary_Search_Tree.cpp) **(E)**
+- [0530. Minimum Absolute Difference in BST](./BS/0530-Minimum_Absolute_Difference_in_BST.cpp) **(E)**
 
 ## [BT](./BT/)
 - [0100. Same Tree](./BT/0100-Same_Tree.cpp) **(E)**
@@ -84,7 +98,10 @@
 - [0052. N-Queens II](./DFS/0052-N-Queens_II.cpp) **(H)**
 - [0077. Combinations](./DFS/0077-Combinations.cpp) **(M)**
 - [0079. Word Search](./DFS/0079-Word_Search.cpp) **(M)**
+- [0797. All Paths From Source to Target](./DFS/0797-All_Paths_From_Source_to_Target.cpp) **(M)**
+- [1192. Critical Connections in a Network](./DFS/1192-Critical_Connections_in_a_Network.cpp) **(H)**
 - [2265. Count Nodes Equal to Average of Subtree](./DFS/2265-Count_Nodes_Equal_to_Average_of_Subtree.cpp) **(M)**
+- [2925. Maximum Score After Applying Operations on a Tree](./DFS/2925-Maximum_Score_After_Applying_Operations_on_a_Tree.cpp) **(M)**
 
 ## [DP](./DP/)
 #### 1D DP
@@ -95,6 +112,7 @@
 - [0300. Longest Increasing Subsequence](./DP/0300-Longest_Increasing_Subsequence.cpp) **(M)**
 - [0823. Binary Trees With Factors](./DP/0823-Binary_Trees_With_Factors.cpp) **(M)**
 - [1220. Count Vowels Permutation](./DP/1220-Count_Vowels_Permutation.cpp) **(H)**
+- [2684. Maximum Number of Moves in a Grid](./DP/2684-Maximum_Number_of_Moves_in_a_Grid.cpp) **(M)**
 - [2919. Minimum Increment Operations to Make Array Beautiful](./DP/2919-Minimum_Increment_Operations_to_Make_Array_Beautiful.cpp) **(M)**
 
 #### Multidimensional DP
@@ -114,6 +132,7 @@
 - [0207. Course Schedule](./Graph/0207-Course_Schedule.cpp) **(M)**
 - [0210. Course Schedule II](./Graph/0210-Course_Schedule_II.cpp) **(M)**
 - [0399. Evaluate Division](./Graph/0399-Evaluate_Division.cpp) **(M)**
+- [0841. Keys and Rooms](./Graph/0841-Keys_and_Rooms.cpp) **(M)**
 
 ## [Greedy](./Greedy/)
 - [0134. Gas Station](./Greedy/0134-Gas%20Station.cpp) **(M)**
@@ -132,6 +151,12 @@
 - [0242. Valid Anagram](./HashMap/0242-Valid_Anagram.cpp) **(E)**
 - [0290. Word Pattern](./HashMap/0290-Word_Pattern.cpp) **(E)**
 - [0383. Ransom Note](./HashMap/0383-Ransom_Note.cpp) **(E)**
+
+## [Heap](./Heap/)
+- [0215. Kth Largest Element in an Array](./Heap/0215-Kth_Largest_Element_in_an_Array.cpp) **(M)**
+- [0295. Find Median from Data Stream](./Heap/0295-Find_Median_from_Data_Stream.cpp) **(H)**
+- [0373. Find K Pairs with Smallest Sums](./Heap/0373-Find_K_Pairs_with_Smallest_Sums.cpp) **(M)**
+- [0502. IPO](./Heap/0502-IPO.cpp) **(H)**
 
 ## [Linked List](./LinkedList/)
 - [0002. Add Two Numbers](./LinkedList/0002-Add_Two_Numbers.cpp) **(M)**
@@ -152,8 +177,13 @@
 - [0069. Sqrt(x)](./Math/0069-Sqrt(x).cpp) **(E)**
 - [0149. Max Points on a Line](./Math/0149-Max_Points_on_a_Line.cpp) **(H)**
 - [0172. Factorial Trailing Zeroes](./Math/0172-Factorial_Trailing_Zeroes.cpp) **(M)**
+- [1503. Last Moment Before All Ants Fall Out of a Plank](./Math/1503-Last_Moment_Before_All_Ants_Fall_Out_of_a_Plank.cpp) **(M)**
 - [2917. Find the K-or of an Array](./Math/2917-Find_the_K-or_of_an_Array.cpp) **(E)**
+- [2682. Find the Losers of the Circular Game](./Math/2682-Find_the_Losers_of_the_Circular_Game.cpp) **(E)**
+
+#### XOR
 - [2433. Find The Original Array of Prefix Xor](./Math/2917-Find_the_K-or_of_an_Array.cpp) **(M)**
+- [2683. Neighboring Bitwise XOR](./Math/2683-Neighboring_Bitwise_XOR.cpp) **(M)**
 
 #### Power of Num
 - [0231. Power of Two](./Math/0231-Power_of_Two.cpp) **(E)**
@@ -204,6 +234,7 @@
 - [0151. Reverse Words in a String](./Stack/0151-Reverse_Words_in_a_String.cpp) **(M)**
 - [0155. Min Stack](./Stack/0155-Min_Stack.cpp) **(M)**
 - [0224. Basic Calculator](./Stack/0224-Basic_Calculator.cpp) **(H)**
+- [1441. Build an Array With Stack Operations](./Stack/1441-Build_an_Array_With_Stack_Operations.cpp) **(M)**
 
 ## [Knapsack](./Knapsack/)
 #### 01 knapsack
@@ -232,3 +263,5 @@
 
 ## [UnionFind](./UnionFind/)
 - [0684. Redundant Connection](./UnionFind/0684-Redundant_Connection.cpp) **(M)**
+
+## [Hackerrank](./Hackerrank/)

@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <deque>
 #include <functional>
+#include <iostream>
 #include <limits.h>
 #include <map>
 #include <memory>

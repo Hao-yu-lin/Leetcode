@@ -46,3 +46,16 @@ sort by end points：the maximum number of non-overlapping intervals<br>
 
 ### upper_bound
 找出 vector 中大於 val 的最小值位置
+
+## priority_queue
+    priority_queue<int> pq; 預設由大排到小
+    prioirty_queue<int, vector<int>, greater<int>> pq; 由小排到大
+### 使用自定義
+    struct cmp{
+        bool operator()(const int& a, const int& b){
+            return a < b;
+        }
+    }
+    prioirty_queue<int, vector<int>, cmp<int>>
+
+因為優先判定為 !cmp，因此如果要由大排到小，需要反向定義
