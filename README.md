@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 203 題
+- 目前有 225 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -47,8 +47,15 @@
 - [0199. Binary Tree Right Side View](./BFS/0199-Binary_Tree_Right_Side_View.cpp) **(M)**
 - [0433. Minimum Genetic Mutation](./BFS/0433-Minimum_Genetic_Mutation.cpp) **(M)**
 - [0515. Find Largest Value in Each Tree Row](./BFS/0515-Find_Largest_Value_in_Each_Tree_Row.cpp) **(M)**
+- [0542. 01 Matrix](./BFS/0542-01_Matrix.cpp) **(M)**
 - [0637. Average of Levels in Binary Tree](./BFS/0637-Average_of_Levels_in_Binary_Tree.cpp) **(E)**
+- [0785. Is Graph Bipartite?](./BFS/0785-Is_Graph_Bipartite.cpp) **(M)**
+- [0847. Shortest Path Visiting All Nodes](./BFS/0847-Shortest_Path_Visiting_All_Nodes.cpp) **(H)**
+- [0863. All Nodes Distance K in Binary Tree](./BFS/0863-All_Nodes_Distance_K_in_Binary_Tree.cpp) **(M)**
+- [0864. Shortest Path to Get All Keys](./BFS/0864-Shortest_Path_to_Get_All_Keys.cpp) **(H)**
+- [1306. Jump Game III](./BFS/1306-Jump_Game_III.cpp) **(M)**
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](./BFS/1466-Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero.cpp) **(M)**
+- [1926. Nearest Exit from Entrance in Maze](./BFS/1926-Nearest_Exit_from_Entrance_in_Maze.cpp) **(M)**
 
 ## [BS](./BS/)
 #### Binary Search
@@ -98,8 +105,13 @@
 - [0052. N-Queens II](./DFS/0052-N-Queens_II.cpp) **(H)**
 - [0077. Combinations](./DFS/0077-Combinations.cpp) **(M)**
 - [0079. Word Search](./DFS/0079-Word_Search.cpp) **(M)**
+- [0200. Number of Islands](./DFS/0200-Number_of_Islands.cpp) **(M)**
+- [0417. Pacific Atlantic Water Flow](./DFS/0417-Pacific_Atlantic_Water_Flow.cpp) **(M)**
+- [0695. Max Area of Island](./DFS/0695-Max_Area_of_Island.cpp) **(M)**
 - [0797. All Paths From Source to Target](./DFS/0797-All_Paths_From_Source_to_Target.cpp) **(M)**
+- [1020. Number of Enclaves](./DFS/1020-Number_of_Enclaves.cpp) **(M)**
 - [1192. Critical Connections in a Network](./DFS/1192-Critical_Connections_in_a_Network.cpp) **(H)**
+- [1254. Number of Closed Islands](./DFS/1254-Number_of_Closed_Islands.cpp) **(M)**
 - [2265. Count Nodes Equal to Average of Subtree](./DFS/2265-Count_Nodes_Equal_to_Average_of_Subtree.cpp) **(M)**
 - [2925. Maximum Score After Applying Operations on a Tree](./DFS/2925-Maximum_Score_After_Applying_Operations_on_a_Tree.cpp) **(M)**
 
@@ -133,11 +145,16 @@
 - [0210. Course Schedule II](./Graph/0210-Course_Schedule_II.cpp) **(M)**
 - [0399. Evaluate Division](./Graph/0399-Evaluate_Division.cpp) **(M)**
 - [0841. Keys and Rooms](./Graph/0841-Keys_and_Rooms.cpp) **(M)**
+- [0997. Find the Town Judge](./Graph/0997-Find_the_Town_Judge.cpp) **(E)**
+- [1557. Minimum Number of Vertices to Reach All Nodes](./Graph/1557-Minimum_Number_of_Vertices_to_Reach_All_Nodes.cpp) **(M)**
+- [1615. Maximal Network Rank](./Graph/1615-Maximal_Network_Rank.cpp) **(M)**
 
 ## [Greedy](./Greedy/)
 - [0134. Gas Station](./Greedy/0134-Gas%20Station.cpp) **(M)**
 - [0135. Candy](./Greedy/0135-Candy.cppp) **(H)**
+- [1921. Eliminate Maximum Number of Monsters](./Greedy/1921-Eliminate_Maximum_Number_of_Monsters.cpp) **(M)**
 - [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](./Greedy/2918-Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp) **(M)**
+
 
 ## [Hash Map](./HashMap/)
 - [0001. Two Sum](./HashMap/0001-Two_Sum.cpp) **(E)**
@@ -178,8 +195,11 @@
 - [0149. Max Points on a Line](./Math/0149-Max_Points_on_a_Line.cpp) **(H)**
 - [0172. Factorial Trailing Zeroes](./Math/0172-Factorial_Trailing_Zeroes.cpp) **(M)**
 - [1503. Last Moment Before All Ants Fall Out of a Plank](./Math/1503-Last_Moment_Before_All_Ants_Fall_Out_of_a_Plank.cpp) **(M)**
-- [2917. Find the K-or of an Array](./Math/2917-Find_the_K-or_of_an_Array.cpp) **(E)**
+- [1759. Count Number of Homogenous Substrings](./Math/1759-Count_Number_of_Homogenous_Substrings.cpp) **(M)**
 - [2682. Find the Losers of the Circular Game](./Math/2682-Find_the_Losers_of_the_Circular_Game.cpp) **(E)**
+- [2849. Determine if a Cell Is Reachable at a Given Time](./Math/2849-Determine_if_a_Cell_Is_Reachable_at_a_Given_Time.cpp) **(M)**
+- [2917. Find the K-or of an Array](./Math/2917-Find_the_K-or_of_an_Array.cpp) **(E)**
+
 
 #### XOR
 - [2433. Find The Original Array of Prefix Xor](./Math/2917-Find_the_K-or_of_an_Array.cpp) **(M)**
@@ -262,6 +282,10 @@
 - [1793. Maximum Score of a Good Subarray](./TwoPointers/1793-Maximum_Score_of_a_Good_Subarray.cpp) **(H)**
 
 ## [UnionFind](./UnionFind/)
+- [0721. Accounts Merge](./UnionFind/0721-Accounts_Merge.cpp) **(M)**
 - [0684. Redundant Connection](./UnionFind/0684-Redundant_Connection.cpp) **(M)**
+- [0839. Similar String Groups](./UnionFind/0839-Similar_String_Groups.cpp) **(H)**
+- [0990. Satisfiability of Equality Equations](./UnionFind/0990-Satisfiability_of_Equality_Equations.cpp) **(M)**
+- [1061. Lexicographically Smallest Equivalent String](./UnionFind/1061-Lexicographically_Smallest_Equivalent_String.cpp) **(M)**
 
 ## [Hackerrank](./Hackerrank/)
