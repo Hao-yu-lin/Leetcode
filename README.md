@@ -1,12 +1,11 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 225 題
+- 目前有 265 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
 ## [Array](./Array/)
-- [0015. 3Sum](./Array/0015-3Sum.cpp) **(M)**
 - [0026. Remove Duplicates from Sorted Array](./Array/0026-Remove_Duplicates_from_Sorted_Array.cpp) **(E)**
 - [0027. Remove Element](./Array/0027-Remove_Element.cpp) **(E)**
 - [0028. Find the Index of the First Occurrence in a String](./Array/0028-Find_the_Index_of_the_First_Occurrence_in_a_String.cpp) **(E)**
@@ -22,6 +21,10 @@
 - [0274. H-Index](./Array/0274-H-Index.cpp) **(M)**
 - [0380. Insert Delete GetRandom O(1)](./Array/0380-Insert_Delete_GetRandom%20O(1).cpp) **(M)**
 - [1535. Find the Winner of an Array Game](./Array/1535-Find_the_Winner_of_an_Array_Game.cpp) **(M)**
+- [1877. Minimize Maximum Pair Sum in Array](./Array/1877-Minimize_Maximum_Pair_Sum_in_Array.cpp) **(M)**
+- [1887. Reduction Operations to Make the Array Elements Equal](./Array/1887-Reduction_Operations_to_Make_the_Array_Elements_Equal.cpp) **(M)**
+- [1980. Find Unique Binary String](./Array/1980-Find_Unique_Binary_String.cpp) **(M)**
+- [2785. Sort Vowels in a String](./Array/2785-Sort_Vowels_in_a_String.cpp) **(M)**
 - [2903. Find Indices With Index and Value Difference I](./Array/2903-Find_Indices_With_Index_and_Value_Difference_I.cpp) **(E)**
 - [2905. Find Indices With Index and Value Difference II](./Array/2905-Find_Indices_With_Index_and_Value_Difference_II.cpp)
 - [2906. Construct Product Matrix](./Array/2906-Construct_Product_Matrix.cpp) **(M)**
@@ -65,7 +68,8 @@
 - [0035. Search Insert Position](./BS/0035-Search_Insert_Position.cpp) **(E)**
 - [0074. Search a 2D Matrix](./BS/0074-Search_a_2D_Matrix.cpp) **(M)**
 - [0153. Find Minimum in Rotated Sorted Array](./BS/0153-Find_Minimum_in_Rotated_Sorted_Array.cpp) **(M)**
-- [0162. Find Peak Element](./BS/0162-Find_Peak_%20Element.cpp) **(M)**\
+- [0154. Find Minimum in Rotated Sorted Array II](./BS/0154-Find_Minimum_in_Rotated_Sorted_Array_II.cpp) **(H)**
+- [0162. Find Peak Element](./BS/0162-Find_Peak_%20Element.cpp) **(M)**
 
 #### Binary Search Tree
 - [0230. Kth Smallest Element in a BST](./BS/0230-Kth_Smallest_Element_in_a_BST.cpp) **(M)**
@@ -73,6 +77,7 @@
 - [0530. Minimum Absolute Difference in BST](./BS/0530-Minimum_Absolute_Difference_in_BST.cpp) **(E)**
 
 ## [BT](./BT/)
+145
 - [0100. Same Tree](./BT/0100-Same_Tree.cpp) **(E)**
 - [0101. Symmetric Tree](./BT/0101-Symmetric_Tree.cpp) **(E)**
 - [0104. Maximum Depth of Binary Tree](./BT/0104-Maximum_Depth_of_Binary_Tree.cpp) **(E)**
@@ -84,6 +89,8 @@
 - [0117. Populating Next Right Pointers in Each Node II](./BT/0117-Populating_Next_Right_Pointers_in_Each_Node_II.cpp) **(M)**
 - [0124. Binary Tree Maximum Path Sum](./BT/0124-Binary_Tree_Maximum_Path_Sum.cpp) **(H)**
 - [0129. Sum Root to Leaf Numbers](./BT/0129-Sum_Root_to_Leaf_Numbers.cpp) **(M)**
+- [0144. Binary Tree Preorder Traversal](./BT/0144-Binary_Tree_Preorder_Traversal.cpp) **(E)**
+- [0145. Binary Tree Postorder Traversal](./BT/0145-Binary_Tree_Postorder_Traversal.cpp) **(E)**
 - [0222. Count Complete Tree Nodes](./BT/0222-Count_Complete_Tree_Nodes.cpp) **(M)**
 - [0226. Invert Binary Tree](./BT/0226-Invert_Binary_Tree.cpp) **(E)**
 - [0235. Lowest Common Ancestor of a Binary Search Tree](./BT/0235-Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp) **(M)**
@@ -105,15 +112,24 @@
 - [0052. N-Queens II](./DFS/0052-N-Queens_II.cpp) **(H)**
 - [0077. Combinations](./DFS/0077-Combinations.cpp) **(M)**
 - [0079. Word Search](./DFS/0079-Word_Search.cpp) **(M)**
+- [0131. Palindrome Partitioning](./DFS/0131-Palindrome_Partitioning.cpp) **(M)**
 - [0200. Number of Islands](./DFS/0200-Number_of_Islands.cpp) **(M)**
 - [0417. Pacific Atlantic Water Flow](./DFS/0417-Pacific_Atlantic_Water_Flow.cpp) **(M)**
+- [0543. Diameter of Binary Tree](./DFS/0543-Diameter_of_Binary_Tree.cpp) **(E)**
+- [0687. Longest Univalue Path](./DFS/0687-Longest_Univalue_Path.cpp) **(M)**
 - [0695. Max Area of Island](./DFS/0695-Max_Area_of_Island.cpp) **(M)**
 - [0797. All Paths From Source to Target](./DFS/0797-All_Paths_From_Source_to_Target.cpp) **(M)**
 - [1020. Number of Enclaves](./DFS/1020-Number_of_Enclaves.cpp) **(M)**
 - [1192. Critical Connections in a Network](./DFS/1192-Critical_Connections_in_a_Network.cpp) **(H)**
 - [1254. Number of Closed Islands](./DFS/1254-Number_of_Closed_Islands.cpp) **(M)**
+- [2049. Count Nodes With the Highest Score](./DFS/2049-Count_Nodes_With_the_Highest_Score.cpp) **(M)**
 - [2265. Count Nodes Equal to Average of Subtree](./DFS/2265-Count_Nodes_Equal_to_Average_of_Subtree.cpp) **(M)**
+- [2322. Minimum Score After Removals on a Tree](./DFS/2322-Minimum_Score_After_Removals_on_a_Tree.cpp) **(H)**
 - [2925. Maximum Score After Applying Operations on a Tree](./DFS/2925-Maximum_Score_After_Applying_Operations_on_a_Tree.cpp) **(M)**
+
+#### search in array
+- [0473. Matchsticks to Square](./DFS/0473-Matchsticks_to_Square.cpp) **(M)**
+- [0698. Partition to K Equal Sum Subsets](./DFS/0698-Partition_to_K_Equal_Sum_Subsets.cpp) **(M)**
 
 ## [DP](./DP/)
 #### 1D DP
@@ -124,6 +140,7 @@
 - [0300. Longest Increasing Subsequence](./DP/0300-Longest_Increasing_Subsequence.cpp) **(M)**
 - [0823. Binary Trees With Factors](./DP/0823-Binary_Trees_With_Factors.cpp) **(M)**
 - [1220. Count Vowels Permutation](./DP/1220-Count_Vowels_Permutation.cpp) **(H)**
+- [2320. Count Number of Ways to Place Houses](./DP/2320-Count_Number_of_Ways_to_Place_Houses.cpp) **(M)**
 - [2684. Maximum Number of Moves in a Grid](./DP/2684-Maximum_Number_of_Moves_in_a_Grid.cpp) **(M)**
 - [2919. Minimum Increment Operations to Make Array Beautiful](./DP/2919-Minimum_Increment_Operations_to_Make_Array_Beautiful.cpp) **(M)**
 
@@ -152,25 +169,40 @@
 ## [Greedy](./Greedy/)
 - [0134. Gas Station](./Greedy/0134-Gas%20Station.cpp) **(M)**
 - [0135. Candy](./Greedy/0135-Candy.cppp) **(H)**
+- [0561. Array Partition](./Greedy/0561-Array_Partition.cpp) **(E)**
+- [1846. Maximum Element After Decreasing and Rearranging](./Greedy/1846-Maximum_Element_After_Decreasing_an_%20Rearranging.cpp) **(M)**
 - [1921. Eliminate Maximum Number of Monsters](./Greedy/1921-Eliminate_Maximum_Number_of_Monsters.cpp) **(M)**
+- [1984. Minimum Difference Between Highest and Lowest of K Scores](./Greedy/1984-Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores.cpp) **(E)**
 - [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](./Greedy/2918-Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp) **(M)**
 
 
 ## [Hash Map](./HashMap/)
+447
 - [0001. Two Sum](./HashMap/0001-Two_Sum.cpp) **(E)**
 - [0012. Integer to Roman](./HashMap/0012-Integer_to_Roman.cpp) **(M)**
 - [0013. Roman to Integer](./HashMap/0013-Roman_to_Integer.cpp) **(E)**
 - [0049. Group Anagrams](./HashMap/0049-Group_Anagrams.cpp) **(M)**
 - [0128. Longest Consecutive Sequence](./HashMap/0128-Longest_Consecutive_Sequence.cpp) **(M)**
+- [0166. Fraction to Recurring Decimal](./HashMap/0166-Fraction_to_Recurring_Decimal.cpp) **(M)**
 - [0202. Happy Number](./HashMap/0202-Happy_Number.cpp) **(E)**
 - [0205. Isomorphic Strings](./HashMap/0205-Isomorphic_Strings.cpp) **(E)**
 - [0219. Contains Duplicate II](./HashMap/0219-Contains_Duplicate_II.cpp) **(E)**
 - [0242. Valid Anagram](./HashMap/0242-Valid_Anagram.cpp) **(E)**
 - [0290. Word Pattern](./HashMap/0290-Word_Pattern.cpp) **(E)**
 - [0383. Ransom Note](./HashMap/0383-Ransom_Note.cpp) **(E)**
+- [0387. First Unique Character in a String](./HashMap/0387-First_Unique_Character_in_a_String.cpp) **(E)**
+- [0409. Longest Palindrome](./HashMap/0409-Longest_Palindrome.cpp) **(E)**
+- [0447. Number of Boomerangs](./HashMap/0447-Number_of_Boomerangs.cpp) **(M)**
+- [0532. K-diff Pairs in an Array](./HashMap/0532-K-diff_Pairs_in_an_Array.cpp) **(M)**
+- [1743. Restore the Array From Adjacent Pairs](./HashMap/1743-Restore_the_Array_From_Adjacent_Pairs.cpp) **(M)**
+#### hash map + prefixsum
+- [0525. Contiguous Array](./HashMap/0525-Contiguous_Array.cpp) **(M)**
+- [0930. Binary Subarrays With Sum](./HashMap/0930-Binary_Subarrays_With_Sum.cpp) **(M)**
+- [1930. Unique Length-3 Palindromic Subsequences](./HashMap/1930-Unique_Length-3_Palindromic_Subsequences.cpp) **(M)**
 
 ## [Heap](./Heap/)
 - [0215. Kth Largest Element in an Array](./Heap/0215-Kth_Largest_Element_in_an_Array.cpp) **(M)**
+- [0220. Contains Duplicate III](./Heap/0220-Contains_Duplicate_III.cpp) **(H)**
 - [0295. Find Median from Data Stream](./Heap/0295-Find_Median_from_Data_Stream.cpp) **(H)**
 - [0373. Find K Pairs with Smallest Sums](./Heap/0373-Find_K_Pairs_with_Smallest_Sums.cpp) **(M)**
 - [0502. IPO](./Heap/0502-IPO.cpp) **(H)**
@@ -187,6 +219,9 @@
 - [0138. Copy List with Random Pointer](./LinkedList/0138-Copy_List_with_Random_Pointer.cpp) **(M)**
 - [0141. Linked List Cycle](./LinkedList/0141-Linked_List_Cycle.cpp) **(E)**
 - [0146. LRU Cache](./LinkedList/0146-LRU_Cache.cpp) **(M)**
+- [0817. Linked List Components](./LinkedList/0817-Linked_List_Components.cpp) **(M)**
+- [1171. Remove Zero Sum Consecutive Nodes from Linked List](./LinkedList/1171-Remove_Zero_Sum_Consecutive_Nodes_from_Linked_List.cpp) **(M)**
+- [2074. Reverse Nodes in Even Length Groups](./LinkedList/2074-Reverse_Nodes_in_Even_Length_Groups.cpp) **(M)**
 
 ## [Math](./Math/)
 - [0050. Pow(x, n)](./Math/0050-Pow(x,%20n).cpp) **(M)**
@@ -199,9 +234,11 @@
 - [2682. Find the Losers of the Circular Game](./Math/2682-Find_the_Losers_of_the_Circular_Game.cpp) **(E)**
 - [2849. Determine if a Cell Is Reachable at a Given Time](./Math/2849-Determine_if_a_Cell_Is_Reachable_at_a_Given_Time.cpp) **(M)**
 - [2917. Find the K-or of an Array](./Math/2917-Find_the_K-or_of_an_Array.cpp) **(E)**
-
+- [2929. Distribute Candies Among Children II](./Math/2929-Distribute_Candies_Among_Children_II.cpp) **(M)**
+- [2930. Number of Strings Which Can Be Rearranged to Contain Substring](./Math/2930-Number_of_Strings_Which_Can_Be_Rearranged_to_Contain_Substring.cpp) **(M)**
 
 #### XOR
+- [1863. Sum of All Subset XOR Totals](./Math/1863-Sum_of_All_Subset_XOR_Totals.cpp) **(E)**
 - [2433. Find The Original Array of Prefix Xor](./Math/2917-Find_the_K-or_of_an_Array.cpp) **(M)**
 - [2683. Neighboring Bitwise XOR](./Math/2683-Neighboring_Bitwise_XOR.cpp) **(M)**
 
@@ -230,6 +267,7 @@
 ## [PrefixSumAndDifference](./PrefixSumAndDifference/)
 #### Prefix
 - [0053. Maximum Subarray](./PrefixSumAndDifference/0053-Maximum_Subarray.cpp) **(M)**
+- [0363. Max Sum of Rectangle No Larger Than K](./PrefixSumAndDifference/0363-Max_Sum_of_Rectangle_No_Larger_Than_K.cpp) **(H)**
 - [0848. Shifting Letters](./PrefixSumAndDifference/0848-Shifting_Letters.cpp) **(M)**
 #### Difference 差分數組
 - [2381. Shifting Letters II](./PrefixSumAndDifference/2381-Shifting_Letters_II.cpp) **(M)**
@@ -276,9 +314,14 @@
 
 ## [Two Pointers](./TwoPointers/)
 - [0011. Container With Most Water](./TwoPointers/0011-Container_With_Most_Water.cpp) **(M)**
+- [0015. 3Sum](./TwoPointers/0015-3Sum.cpp) **(M)**
+- [0016. 3Sum Closest](./TwoPointers/0016-3Sum_Closest.cpp) **(M)**
+- [0018. 4Sum](./TwoPointers/0018-4Sum.cpp) **(M)**
 - [0125. Valid Palindrome](./TwoPointers/0125-Valid_Palindrome.cpp) **(E)**
 - [0167. Two Sum II - Input Array Is Sorted](./TwoPointers/0167-Two_Sum_II-Input_Array_Is_Sorted.cpp) **(M)**
 - [0392. Is Subsequence](./TwoPointers/0392-Is_Subsequence.cpp) **(E)**
+- [0611. Valid Triangle Number](./TwoPointers/0611-Valid_Triangle_Number.cpp) **(M)**
+- [0986. Interval List Intersections](./TwoPointers/0986-Interval_List_Intersections.cpp) **(M)**
 - [1793. Maximum Score of a Good Subarray](./TwoPointers/1793-Maximum_Score_of_a_Good_Subarray.cpp) **(H)**
 
 ## [UnionFind](./UnionFind/)

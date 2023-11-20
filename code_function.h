@@ -8,6 +8,7 @@
 #include <limits.h>
 #include <map>
 #include <memory>
+#include <numeric>
 #include <queue>
 #include <stack>
 #include <set>
