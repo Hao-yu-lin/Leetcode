@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 265 題
+- 目前有 279 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -21,6 +21,7 @@
 - [0274. H-Index](./Array/0274-H-Index.cpp) **(M)**
 - [0380. Insert Delete GetRandom O(1)](./Array/0380-Insert_Delete_GetRandom%20O(1).cpp) **(M)**
 - [1535. Find the Winner of an Array Game](./Array/1535-Find_the_Winner_of_an_Array_Game.cpp) **(M)**
+- [1561. Maximum Number of Coins You Can Get](./Array/1561-Maximum_Number_of_Coins_You_Can_Get.cpp) **(M)**
 - [1877. Minimize Maximum Pair Sum in Array](./Array/1877-Minimize_Maximum_Pair_Sum_in_Array.cpp) **(M)**
 - [1887. Reduction Operations to Make the Array Elements Equal](./Array/1887-Reduction_Operations_to_Make_the_Array_Elements_Equal.cpp) **(M)**
 - [1980. Find Unique Binary String](./Array/1980-Find_Unique_Binary_String.cpp) **(M)**
@@ -131,6 +132,7 @@
 - [0473. Matchsticks to Square](./DFS/0473-Matchsticks_to_Square.cpp) **(M)**
 - [0698. Partition to K Equal Sum Subsets](./DFS/0698-Partition_to_K_Equal_Sum_Subsets.cpp) **(M)**
 
+
 ## [DP](./DP/)
 #### 1D DP
 - [0042. Trapping Rain Water](./DP/0042-Trapping_Rain_Water.cpp) **(H)**
@@ -139,6 +141,7 @@
 - [0198. House Robber](./DP/0198-House_Robber.cpp) **(M)**
 - [0300. Longest Increasing Subsequence](./DP/0300-Longest_Increasing_Subsequence.cpp) **(M)**
 - [0823. Binary Trees With Factors](./DP/0823-Binary_Trees_With_Factors.cpp) **(M)**
+- [0935. Knight Dialer](./DP/0935-Knight_Dialer.cpp) **(M)**
 - [1220. Count Vowels Permutation](./DP/1220-Count_Vowels_Permutation.cpp) **(H)**
 - [2320. Count Number of Ways to Place Houses](./DP/2320-Count_Number_of_Ways_to_Place_Houses.cpp) **(M)**
 - [2684. Maximum Number of Moves in a Grid](./DP/2684-Maximum_Number_of_Moves_in_a_Grid.cpp) **(M)**
@@ -177,7 +180,6 @@
 
 
 ## [Hash Map](./HashMap/)
-447
 - [0001. Two Sum](./HashMap/0001-Two_Sum.cpp) **(E)**
 - [0012. Integer to Roman](./HashMap/0012-Integer_to_Roman.cpp) **(M)**
 - [0013. Roman to Integer](./HashMap/0013-Roman_to_Integer.cpp) **(E)**
@@ -193,11 +195,14 @@
 - [0387. First Unique Character in a String](./HashMap/0387-First_Unique_Character_in_a_String.cpp) **(E)**
 - [0409. Longest Palindrome](./HashMap/0409-Longest_Palindrome.cpp) **(E)**
 - [0447. Number of Boomerangs](./HashMap/0447-Number_of_Boomerangs.cpp) **(M)**
+- [0498. Diagonal Traverse](./HashMap/0498-Diagonal_Traverse.cpp) **(M)**
 - [0532. K-diff Pairs in an Array](./HashMap/0532-K-diff_Pairs_in_an_Array.cpp) **(M)**
+- [1424. Diagonal Traverse II](./HashMap/1424-Diagonal_Traverse_II.cpp) **(M)**
 - [1743. Restore the Array From Adjacent Pairs](./HashMap/1743-Restore_the_Array_From_Adjacent_Pairs.cpp) **(M)**
 #### hash map + prefixsum
 - [0525. Contiguous Array](./HashMap/0525-Contiguous_Array.cpp) **(M)**
 - [0930. Binary Subarrays With Sum](./HashMap/0930-Binary_Subarrays_With_Sum.cpp) **(M)**
+- [1124. Longest Well-Performing Interval](./HashMap/1124-Longest_Well-Performing_Interval.cpp) **(M)**
 - [1930. Unique Length-3 Palindromic Subsequences](./HashMap/1930-Unique_Length-3_Palindromic_Subsequences.cpp) **(M)**
 
 ## [Heap](./Heap/)
@@ -236,6 +241,7 @@
 - [2917. Find the K-or of an Array](./Math/2917-Find_the_K-or_of_an_Array.cpp) **(E)**
 - [2929. Distribute Candies Among Children II](./Math/2929-Distribute_Candies_Among_Children_II.cpp) **(M)**
 - [2930. Number of Strings Which Can Be Rearranged to Contain Substring](./Math/2930-Number_of_Strings_Which_Can_Be_Rearranged_to_Contain_Substring.cpp) **(M)**
+- [2946. Matrix Similarity After Cyclic Shifts](./Math/2946-Matrix_Similarity_After_Cyclic_Shifts.cpp) **(E)**
 
 #### XOR
 - [1863. Sum of All Subset XOR Totals](./Math/1863-Sum_of_All_Subset_XOR_Totals.cpp) **(E)**
@@ -264,13 +270,24 @@
 - [0054. Spiral Matrix](./Matrix/0054-Spiral_Matrix.cpp) **(M)**
 - [0073. Set Matrix Zeroes](./Matrix/0073-Set_Matrix_Zeroes.cpp) **(M)**
 
+#### Maximal Rectangle
+- [0084. Largest Rectangle in Histogram](./Matrix/0084-Largest_Rectangle_in_Histogram.cpp) **(H)**
+- [0085. Maximal Rectangle](./Matrix/0085-Maximal_Rectangle.cpp) **(H)**
+- [1727. Largest Submatrix With Rearrangements](./Matrix/1727-Largest_Submatrix_With_Rearrangements.cpp) **(M)**
+- [2334. Subarray With Elements Greater Than Varying Threshold](./Matrix/2334-Subarray_With_Elements_Greater_Than_Varying_Threshold.cpp) **(H)**
+
 ## [PrefixSumAndDifference](./PrefixSumAndDifference/)
 #### Prefix
 - [0053. Maximum Subarray](./PrefixSumAndDifference/0053-Maximum_Subarray.cpp) **(M)**
 - [0363. Max Sum of Rectangle No Larger Than K](./PrefixSumAndDifference/0363-Max_Sum_of_Rectangle_No_Larger_Than_K.cpp) **(H)**
 - [0848. Shifting Letters](./PrefixSumAndDifference/0848-Shifting_Letters.cpp) **(M)**
+- [1685. Sum of Absolute Differences in a Sorted Array](./PrefixSumAndDifference/1685-Sum_of_Absolute_Differences_in_a_Sorted_Array.cpp) **(M)**
+- [2121. Intervals Between Identical Elements](./PrefixSumAndDifference/2121-Intervals_Between_Identical_Elements.cpp) **(M)**
 #### Difference 差分數組
 - [2381. Shifting Letters II](./PrefixSumAndDifference/2381-Shifting_Letters_II.cpp) **(M)**
+
+#### 掃描線法
+- [0732. My Calendar III](./PrefixSumAndDifference/0732-My_Calendar_III.cpp) **(H)**
 
 ## [Recursion](./Recursion/)
 - [0779. K-th Symbol in Grammar](./Recursion/0779-K-th_Symbol_in_Grammar.cpp) **(M)**
@@ -311,6 +328,7 @@
 - [0208. Implement Trie (Prefix Tree)](./Trie/0208-Implement_Trie_(Prefix%20Tree).cpp) **(M)**
 - [0211. Design Add and Search Words Data Structure](./Trie/0211-Design_Add_and_Search_Words_Data_Structure.cpp) **(M)**
 - [0212. Word Search II](./Trie/0212-Word_Search_II.cpp) **(H)**
+- [2935. Maximum Strong Pair XOR II](./Trie/2935-Maximum_Strong_Pair_XOR_II.cpp) **(H)**
 
 ## [Two Pointers](./TwoPointers/)
 - [0011. Container With Most Water](./TwoPointers/0011-Container_With_Most_Water.cpp) **(M)**
