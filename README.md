@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 279 題
+- 目前有 298 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -20,12 +20,15 @@
 - [0238. Product of Array Except Self](./Array/0238-Product_of_Array_Except_Self.cpp) **(M)**
 - [0274. H-Index](./Array/0274-H-Index.cpp) **(M)**
 - [0380. Insert Delete GetRandom O(1)](./Array/0380-Insert_Delete_GetRandom%20O(1).cpp) **(M)**
+- [1287. Element Appearing More Than 25% In Sorted Array](./Array/1287-Element_Appearing_More_Than_25%25_In_Sorted_Array.cpp) **(E)**
 - [1535. Find the Winner of an Array Game](./Array/1535-Find_the_Winner_of_an_Array_Game.cpp) **(M)**
 - [1561. Maximum Number of Coins You Can Get](./Array/1561-Maximum_Number_of_Coins_You_Can_Get.cpp) **(M)**
+- [1662. Check If Two String Arrays are Equivalent](./Array/1662-Check_If_Two_String_Arrays_are_Equivalent.cpp) **(E)**
 - [1877. Minimize Maximum Pair Sum in Array](./Array/1877-Minimize_Maximum_Pair_Sum_in_Array.cpp) **(M)**
 - [1887. Reduction Operations to Make the Array Elements Equal](./Array/1887-Reduction_Operations_to_Make_the_Array_Elements_Equal.cpp) **(M)**
 - [1980. Find Unique Binary String](./Array/1980-Find_Unique_Binary_String.cpp) **(M)**
 - [2785. Sort Vowels in a String](./Array/2785-Sort_Vowels_in_a_String.cpp) **(M)**
+- [2862. Maximum Element-Sum of a Complete Subset of Indices](./Array/2862-Maximum_Element-Sum_of_a_Complete_Subset_of_Indices.cpp) **(H)**
 - [2903. Find Indices With Index and Value Difference I](./Array/2903-Find_Indices_With_Index_and_Value_Difference_I.cpp) **(E)**
 - [2905. Find Indices With Index and Value Difference II](./Array/2905-Find_Indices_With_Index_and_Value_Difference_II.cpp)
 - [2906. Construct Product Matrix](./Array/2906-Construct_Product_Matrix.cpp) **(M)**
@@ -35,6 +38,7 @@
 - [2914. Minimum Number of Changes to Make Binary String Beautiful](./Array/2914-Minimum_Number_of_Changes_to_Make_Binary_String_Beautiful.cpp) **(M)**
 - [2923. Find Champion I](./Array/2923-Find_Champion_I.cpp) **(E)**
 - [2924. Find Champion II](./Array/2924-Find_Champion_II.cpp) **(M)**
+- [2956. Find Common Elements Between Two Arrays](./Array/2956-Find_Common_Elements_Between_Two_Arrays.cpp) **(E)**
 
 #### Intervals
 - [0056. Merge Intervals](./Array/0056-Merge_Intervals.cpp) **(M)**
@@ -143,6 +147,8 @@
 - [0823. Binary Trees With Factors](./DP/0823-Binary_Trees_With_Factors.cpp) **(M)**
 - [0935. Knight Dialer](./DP/0935-Knight_Dialer.cpp) **(M)**
 - [1220. Count Vowels Permutation](./DP/1220-Count_Vowels_Permutation.cpp) **(H)**
+- [1611. Minimum One Bit Operations to Make Integers Zero](./DP/1611-Minimum_One_Bit_Operations_to_Make_Integers_Zero.cpp) **(H)**
+- [2147. Number of Ways to Divide a Long Corridor](./DP/2147-Number_of_Ways_to_Divide_a_Long_Corridor.cpp) **(H)**
 - [2320. Count Number of Ways to Place Houses](./DP/2320-Count_Number_of_Ways_to_Place_Houses.cpp) **(M)**
 - [2684. Maximum Number of Moves in a Grid](./DP/2684-Maximum_Number_of_Moves_in_a_Grid.cpp) **(M)**
 - [2919. Minimum Increment Operations to Make Array Beautiful](./DP/2919-Minimum_Increment_Operations_to_Make_Array_Beautiful.cpp) **(M)**
@@ -174,8 +180,10 @@
 - [0135. Candy](./Greedy/0135-Candy.cppp) **(H)**
 - [0561. Array Partition](./Greedy/0561-Array_Partition.cpp) **(E)**
 - [1846. Maximum Element After Decreasing and Rearranging](./Greedy/1846-Maximum_Element_After_Decreasing_an_%20Rearranging.cpp) **(M)**
+- [1903. Largest Odd Number in String](./Greedy/1903-Largest_Odd_Number_in_String.cpp) **(E)**
 - [1921. Eliminate Maximum Number of Monsters](./Greedy/1921-Eliminate_Maximum_Number_of_Monsters.cpp) **(M)**
 - [1984. Minimum Difference Between Highest and Lowest of K Scores](./Greedy/1984-Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores.cpp) **(E)**
+- [2856. Minimum Array Length After Pair Removals](./Greedy/2856-Minimum_Array_Length_After_Pair_Removals.cpp) **(M)**
 - [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](./Greedy/2918-Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp) **(M)**
 
 
@@ -197,8 +205,11 @@
 - [0447. Number of Boomerangs](./HashMap/0447-Number_of_Boomerangs.cpp) **(M)**
 - [0498. Diagonal Traverse](./HashMap/0498-Diagonal_Traverse.cpp) **(M)**
 - [0532. K-diff Pairs in an Array](./HashMap/0532-K-diff_Pairs_in_an_Array.cpp) **(M)**
+- [1160. Find Words That Can Be Formed by Characters](./HashMap/1160-Find_Words_That_Can_Be_Formed_by_Characters.cpp) **(E)**
 - [1424. Diagonal Traverse II](./HashMap/1424-Diagonal_Traverse_II.cpp) **(M)**
 - [1743. Restore the Array From Adjacent Pairs](./HashMap/1743-Restore_the_Array_From_Adjacent_Pairs.cpp) **(M)**
+- [2958. Length of Longest Subarray With at Most K Frequency](./HashMap/2958-Length_of_Longest_Subarray_With_at_Most_K_Frequency.cpp) **(M)**
+
 #### hash map + prefixsum
 - [0525. Contiguous Array](./HashMap/0525-Contiguous_Array.cpp) **(M)**
 - [0930. Binary Subarrays With Sum](./HashMap/0930-Binary_Subarrays_With_Sum.cpp) **(M)**
@@ -211,6 +222,13 @@
 - [0295. Find Median from Data Stream](./Heap/0295-Find_Median_from_Data_Stream.cpp) **(H)**
 - [0373. Find K Pairs with Smallest Sums](./Heap/0373-Find_K_Pairs_with_Smallest_Sums.cpp) **(M)**
 - [0502. IPO](./Heap/0502-IPO.cpp) **(H)**
+
+#### find min range
+- [0632. Smallest Range Covering Elements from K Lists](./Heap/0632-Smallest_Range_Covering_Elements_from_K_Lists.cpp) **(H)**
+- [1675. Minimize Deviation in Array](./Heap/1675-Minimize_Deviation_in_Array.cpp) **(H)**
+
+#### 離線查詢
+- [1847. Closest Room](./Heap/1847-Closest_Room.cpp) **(H)**
 
 ## [Linked List](./LinkedList/)
 - [0002. Add Two Numbers](./LinkedList/0002-Add_Two_Numbers.cpp) **(M)**
@@ -234,7 +252,10 @@
 - [0069. Sqrt(x)](./Math/0069-Sqrt(x).cpp) **(E)**
 - [0149. Max Points on a Line](./Math/0149-Max_Points_on_a_Line.cpp) **(H)**
 - [0172. Factorial Trailing Zeroes](./Math/0172-Factorial_Trailing_Zeroes.cpp) **(M)**
+- [1266. Minimum Time Visiting All Points](./Math/1266-Minimum_Time_Visiting_All_Points.cpp) **(E)**
 - [1503. Last Moment Before All Ants Fall Out of a Plank](./Math/1503-Last_Moment_Before_All_Ants_Fall_Out_of_a_Plank.cpp) **(M)**
+- [1688. Count of Matches in Tournament](./Math/1688-Count_of_Matches_in_Tournament.cpp) **(E)**
+- [1716. Calculate Money in Leetcode Bank](./Math/1716-Calculate_Money_in_Leetcode_Bank.cpp) **(E)**
 - [1759. Count Number of Homogenous Substrings](./Math/1759-Count_Number_of_Homogenous_Substrings.cpp) **(M)**
 - [2682. Find the Losers of the Circular Game](./Math/2682-Find_the_Losers_of_the_Circular_Game.cpp) **(E)**
 - [2849. Determine if a Cell Is Reachable at a Given Time](./Math/2849-Determine_if_a_Cell_Is_Reachable_at_a_Given_Time.cpp) **(M)**
@@ -263,12 +284,14 @@
 - [0191. Number of 1 Bits](./Math/0191-Number_of_1_Bits.cpp) **(E)**
 - [0201. Bitwise AND of Numbers Range](./Math/0201-Bitwise_AND_of_Numbers_Range.cpp)
 - [1356. Sort Integers by The Number of 1 Bits](./Math/1356-Sort_Integers_by_The_Number_of_1_Bits.cpp) **(E)**
+- [2680. Maximum OR](./Math/2680-Maximum_OR.cpp) **(M)**
 
 ## [Matrix](./Matrix/)
 - [0036. Valid Sudoku](./Matrix/0036-Valid_Sudoku.cpp) **(M)**
 - [0048. Rotate Image](./Matrix/0048-Rotate_Image.cpp) **(M)**
 - [0054. Spiral Matrix](./Matrix/0054-Spiral_Matrix.cpp) **(M)**
 - [0073. Set Matrix Zeroes](./Matrix/0073-Set_Matrix_Zeroes.cpp) **(M)**
+- [0867. Transpose Matrix](./Matrix/0867-Transpose_Matrix.cpp) **(E)**
 
 #### Maximal Rectangle
 - [0084. Largest Rectangle in Histogram](./Matrix/0084-Largest_Rectangle_in_Histogram.cpp) **(H)**
@@ -300,6 +323,7 @@
 - [0220. Contains Duplicate III](./SlidingWindows/0220-Contains_Duplicate_III.cpp) **(H)**
 - [2379. Minimum Recolors to Get K Consecutive Black Blocks](./SlidingWindows/2379-Minimum_Recolors_to_Get_K_Consecutive_Black_Blocks.cpp) **(E)**
 - [2904. Shortest and Lexicographically Smallest Beautiful String](./SlidingWindows/2904-Shortest_and_Lexicographically_Smallest_Beautiful_String.cpp) **(M)**
+- [2957. Remove Adjacent Almost-Equal Characters](./SlidingWindows/2957-Remove_Adjacent_Almost-Equal_Characters.cpp) **(M)**
 
 
 ## [Stack](./Stack/)

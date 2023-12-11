@@ -2,6 +2,7 @@
 #define CODE_FUNCTION_H_
 
 #include <algorithm>
+#include <bitset>
 #include <deque>
 #include <functional>
 #include <iostream>
