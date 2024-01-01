@@ -15,7 +15,7 @@ Hash Map
 
 #include "../code_function.h"
 
-class Solution {
+class Solution1 {
 public:
     bool isAnagram(string s, string t) {
         size_t s_sz = s.length();
@@ -31,6 +31,28 @@ public:
         for(const int& c : count){
             if(c != 0) return false;
         }
+        return true;
+    }
+};
+
+class Solution2 {
+public:
+    bool isAnagram(string s, string t) 
+    {
+        unordered_map<char, int> ump;
+        if(s.length() != t.length()) return false;
+
+        for(char &c : s)
+        {
+            ump[c]++;
+        }
+
+        for(char &c : t)
+        {
+            if(ump[c] > 0) ump[c]--;
+            else return false;
+        }
+
         return true;
     }
 };

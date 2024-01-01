@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 298 題
+- 目前有 321 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -23,6 +23,7 @@
 - [1287. Element Appearing More Than 25% In Sorted Array](./Array/1287-Element_Appearing_More_Than_25%25_In_Sorted_Array.cpp) **(E)**
 - [1535. Find the Winner of an Array Game](./Array/1535-Find_the_Winner_of_an_Array_Game.cpp) **(M)**
 - [1561. Maximum Number of Coins You Can Get](./Array/1561-Maximum_Number_of_Coins_You_Can_Get.cpp) **(M)**
+- [1625. Lexicographically Smallest String After Applying Operations](./Array/1625-Lexicographically_Smallest_String_After_Applying_Operations.cpp) **(M)**
 - [1662. Check If Two String Arrays are Equivalent](./Array/1662-Check_If_Two_String_Arrays_are_Equivalent.cpp) **(E)**
 - [1877. Minimize Maximum Pair Sum in Array](./Array/1877-Minimize_Maximum_Pair_Sum_in_Array.cpp) **(M)**
 - [1887. Reduction Operations to Make the Array Elements Equal](./Array/1887-Reduction_Operations_to_Make_the_Array_Elements_Equal.cpp) **(M)**
@@ -162,6 +163,8 @@
 - [0120. Triangle](./DP/0120-Triangle.cpp) **(M)**
 - [0123. Best Time to Buy and Sell Stock III](./DP/0123-Best_Time_to_Buy_and_Sell_Stock_III.cpp) **(H)**
 - [0221. Maximal Square](./DP/0221-Maximal_Square.cpp) **(M)**
+- [1155. Number of Dice Rolls With Target Sum](./DP/1155-Number_of_Dice_Rolls_With_Target_Sum.cpp) **(M)**
+- [1335. Minimum Difficulty of a Job Schedule](./DP/1335-Minimum_Difficulty_of_a_Job_Schedule.cpp) **(H)**
 
 ## [Graph](./Graph/)
 - [0130. Surrounded Regions](./Graph/0130-Surrounded_Regions.cpp) **(M)**
@@ -174,6 +177,21 @@
 - [0997. Find the Town Judge](./Graph/0997-Find_the_Town_Judge.cpp) **(E)**
 - [1557. Minimum Number of Vertices to Reach All Nodes](./Graph/1557-Minimum_Number_of_Vertices_to_Reach_All_Nodes.cpp) **(M)**
 - [1615. Maximal Network Rank](./Graph/1615-Maximal_Network_Rank.cpp) **(M)**
+- [2791. Count Paths That Can Form a Palindrome in a Tree](./Graph/2791-Count_Paths_That_Can_Form_a_Palindrome_in_a_Tree.cpp) **(H)**
+
+#### Shortest Path：Floyd
+- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](./Graph/1334-Find_the_City_With_the_Smallest_Number_of_Neighbors_at_a_Threshold_Distance.cpp) **(M)**
+- [2642. Design Graph With Shortest Path Calculator](./Graph/2642-Design_Graph_With_Shortest_Path_Calculator.cpp) **(H)**
+- [2976. Minimum Cost to Convert String I](./Graph/2976-Minimum_Cost_to_Convert_String_I.cpp)**(M)**
+- [2959. Number of Possible Sets of Closing Branches](./Graph/2959-Number_of_Possible_Sets_of_Closing_Branches.cpp) **(H)**
+
+#### Shortest Path：priority queue + BFS
+- [0407. Trapping Rain Water II](./Graph/0407-Trapping_Rain_Water_II.cpp) **(H)**
+- [0743. Network Delay Time](./Graph/0743-Network_Delay_Time.cpp) **(M)**
+- [0778. Swim in Rising Water](./Graph/0778-Swim_in_Rising_Water.cpp) **(H)**
+- [2503. Maximum Number of Points From Grid Queries](./Graph/2503-Maximum_Number_of_Points_From_Grid_Queries.cpp) **(H)**
+- [2662. Minimum Cost of a Path With Special Roads](./Graph/2662-Minimum_Cost_of_a_Path_With_Special_Roads.cpp) **(M)**
+- [2699. Modify Graph Edge Weights](./Graph/2699-Modify_Graph_Edge_Weights.cpp) **(H)**
 
 ## [Greedy](./Greedy/)
 - [0134. Gas Station](./Greedy/0134-Gas%20Station.cpp) **(M)**
@@ -207,7 +225,11 @@
 - [0532. K-diff Pairs in an Array](./HashMap/0532-K-diff_Pairs_in_an_Array.cpp) **(M)**
 - [1160. Find Words That Can Be Formed by Characters](./HashMap/1160-Find_Words_That_Can_Be_Formed_by_Characters.cpp) **(E)**
 - [1424. Diagonal Traverse II](./HashMap/1424-Diagonal_Traverse_II.cpp) **(M)**
+- [1436. Destination City](./HashMap/1436-Destination_City.cpp) **(E)**
+- [1737. Change Minimum Characters to Satisfy One of Three Conditions](./HashMap/1737-Change_Minimum_Characters_to_Satisfy_One_of_Three_Conditions.cpp) **(M)**
 - [1743. Restore the Array From Adjacent Pairs](./HashMap/1743-Restore_the_Array_From_Adjacent_Pairs.cpp) **(M)**
+- [1897. Redistribute Characters to Make All Strings Equal](./HashMap/1897-Redistribute_Characters_to_Make_All_Strings_Equal.cpp) **(E)**
+- [2857. Count Pairs of Points With Distance k](./HashMap/2857-Count_Pairs_of_Points_With_Distance_k.cpp) **(M)**
 - [2958. Length of Longest Subarray With at Most K Frequency](./HashMap/2958-Length_of_Longest_Subarray_With_at_Most_K_Frequency.cpp) **(M)**
 
 #### hash map + prefixsum
@@ -292,6 +314,7 @@
 - [0054. Spiral Matrix](./Matrix/0054-Spiral_Matrix.cpp) **(M)**
 - [0073. Set Matrix Zeroes](./Matrix/0073-Set_Matrix_Zeroes.cpp) **(M)**
 - [0867. Transpose Matrix](./Matrix/0867-Transpose_Matrix.cpp) **(E)**
+- [2482. Difference Between Ones and Zeros in Row and Column](./Matrix/2482-Difference_Between_Ones_and_Zeros_in_Row_and_Column.cpp) **(M)**
 
 #### Maximal Rectangle
 - [0084. Largest Rectangle in Histogram](./Matrix/0084-Largest_Rectangle_in_Histogram.cpp) **(H)**
@@ -313,6 +336,7 @@
 - [0732. My Calendar III](./PrefixSumAndDifference/0732-My_Calendar_III.cpp) **(H)**
 
 ## [Recursion](./Recursion/)
+- [0091. Decode Ways](./Recursion/0091-Decode_Ways.cpp) **(M)**
 - [0779. K-th Symbol in Grammar](./Recursion/0779-K-th_Symbol_in_Grammar.cpp) **(M)**
 
 ## [Sliding Windows](./SlidingWindows/)
@@ -334,6 +358,10 @@
 - [0155. Min Stack](./Stack/0155-Min_Stack.cpp) **(M)**
 - [0224. Basic Calculator](./Stack/0224-Basic_Calculator.cpp) **(H)**
 - [1441. Build an Array With Stack Operations](./Stack/1441-Build_an_Array_With_Stack_Operations.cpp) **(M)**
+
+#### monotonic stack
+- [0795. Number of Subarrays with Bounded Maximum](./Stack/0795-Number_of_Subarrays_with_Bounded_Maximum.cpp) **(M)**
+- [0907. Sum of Subarray Minimums](./Stack/0907-Sum_of_Subarray_Minimums.cpp) **(M)**
 
 ## [Knapsack](./Knapsack/)
 #### 01 knapsack
@@ -365,6 +393,7 @@
 - [0611. Valid Triangle Number](./TwoPointers/0611-Valid_Triangle_Number.cpp) **(M)**
 - [0986. Interval List Intersections](./TwoPointers/0986-Interval_List_Intersections.cpp) **(M)**
 - [1793. Maximum Score of a Good Subarray](./TwoPointers/1793-Maximum_Score_of_a_Good_Subarray.cpp) **(H)**
+- [2831. Find the Longest Equal Subarray](./TwoPointers/2831-Find_the_Longest_Equal_Subarray.cpp) **(M)**
 
 ## [UnionFind](./UnionFind/)
 - [0721. Accounts Merge](./UnionFind/0721-Accounts_Merge.cpp) **(M)**
